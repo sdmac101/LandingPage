@@ -1,9 +1,12 @@
 
-/* Desktop menu */
 
+/* Desktop menu */
+body{
+    margin: 10px;
+}
 .nav-bar {
     display: flex;
-    align-items: flex-start;     
+    align-items: stretch;     
     flex-wrap: nowrap;
     justify-content: space-evenly;
     padding: 0;
@@ -34,11 +37,13 @@
     color: white;
 }
 
+
 .submenu {
     display: none;
     flex-direction: column;
     padding: 0;
     margin-top: 15px;
+    position: absolute;
 }
 
 .subitem {
@@ -48,14 +53,13 @@
 .nav_link:hover .submenu {
     display: flex;
     list-style: none;
+    background-color: rgb(0, 118, 214);
 }
 
 .nav_link:hover .subitem a {
     line-height: normal;
-}
+    font-size: 16px;
 
-.subitem {
-    width: 100%;
 }
 
 .subitem:hover {
@@ -66,11 +70,4 @@
 .subitem:hover a {
     color: black;
     transition: color 0.5s;
-}
-
-
-@media all and (max-width: 1061px) {
-    .nav_link {
-        min-height: 40px;
-    }
 }
