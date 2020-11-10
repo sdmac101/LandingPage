@@ -17,13 +17,13 @@ export default class extends AbstractView {
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/static/footerimages/cactn.png" alt="First slide">
+                        <img class="d-block w-100" src="/static/Slideshowimages/KidRunning.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Second slide">
+                        <img class="d-block w-100" src="/static/Slideshowimages/TTO.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Third slide">
+                        <img class="d-block w-100" src="/static/Slideshowimages/secret_santa.jpg" alt="Third slide">
                     </div>
                 </div>
             </div>
@@ -45,6 +45,14 @@ export default class extends AbstractView {
           </div>
 
             
+
+        <div class="statistics">
+
+            <h1>we are seeing whether old branches gets rid of this header </h1>
+
+        </div>
+
+
 
         <section class="newsletter">
             <div class="container">

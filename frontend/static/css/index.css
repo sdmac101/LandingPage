@@ -1,8 +1,15 @@
-
-
 /* Desktop menu */
 body{
     margin: 0;
+}
+
+/* Home page logo */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* bootstrap navbar designs */
@@ -104,6 +111,9 @@ body{
     color: black;
     transition: color 0.5s;
 }
+
+/* home page slideshow */
+
 
 /* footer */
 footer {
