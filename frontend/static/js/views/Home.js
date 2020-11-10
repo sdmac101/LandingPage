@@ -37,11 +37,21 @@ export default class extends AbstractView {
             </p>
 
 
+            
+            <div class="container my-4">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kALhKx71dT8" allowfullscreen></iframe>
+              </div>
+          </div>
+
+            
+
         <div class="statistics">
 
             <h1>we are seeing whether old branches gets rid of this header </h1>
 
         </div>
+
 
 
         <section class="newsletter">
