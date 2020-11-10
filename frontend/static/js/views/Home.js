@@ -37,6 +37,15 @@ export default class extends AbstractView {
             </p>
 
 
+            
+            <div class="container my-4">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kALhKx71dT8" allowfullscreen></iframe>
+              </div>
+          </div>
+
+            
+
         <section class="newsletter">
             <div class="container">
                 <div class="row">
