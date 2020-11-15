@@ -28,14 +28,24 @@ export default class extends AbstractView {
                 </div>
             </div>
         
-        <h1>Welcome back dude! </h1>
-            <p>
-                this is a test for single page application to be used for cac
-            </p>
-            <p>
-                <a href="/posts" data-link>View recent posts</a>
-            </p>
 
+        <div class="statistics">
+            <div class="statistics-header"><h2>IN THE PAST 20 YEARS</h2></div>
+            <div class="statistics-flexbox">
+                <div class="statistics-item">
+                    <div class="statistics-value">2,400</div>
+                    PEOPLE SERVED
+                </div>
+                <div class="statistics-item">
+                    <div class="statistics-value">16,000</div>
+                    CHILD ABUSE CASES INVESTIGATED
+                </div>
+                <div class="statistics-item">
+                    <div class="statistics-value">12,000</div>
+                    ADULTS TRAINED
+                </div>
+            </div>
+        </div>
 
             
             <div class="container my-4">
@@ -43,14 +53,6 @@ export default class extends AbstractView {
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kALhKx71dT8" allowfullscreen></iframe>
               </div>
           </div>
-
-            
-
-        <div class="statistics">
-
-            <h1>we are seeing whether old branches gets rid of this header </h1>
-
-        </div>
 
 
 

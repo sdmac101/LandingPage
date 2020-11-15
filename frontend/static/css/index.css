@@ -112,9 +112,6 @@ body{
     transition: color 0.5s;
 }
 
-/* home page slideshow */
-
-
 /* footer */
 footer {
     margin: 0;
@@ -137,6 +134,10 @@ footer p {
     margin: 6px 0;
 }
 
+.address-item p {
+    font-size: medium;
+}
+
 .footerimages {
     display: flex; 
     flex-wrap: wrap;   
@@ -146,13 +147,53 @@ footer p {
 
 .footer-image {
     flex-grow: 1;
-    margin: 13px 0;
+    margin: 13px 10px;
+}
+
+.social-media-icons {
+    margin-right: 10px;
 }
 
 #app {
     padding: 10px;
 }
 
+/* home page slideshow */
+.carousel-item {
+    max-height: 600px;
+}
+
+/* statistics for homepage */
+.statistics {
+    background-color: rgb(0, 118, 214);
+    margin-top: 25px;
+}
+
+.statistics-header {
+    text-align: center;
+}
+
+.statistics-header h2 {
+    color: white;
+}
+
+.statistics-flexbox {
+    display: flex; 
+    flex-wrap: wrap;   
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.statistics-item {
+    background-image: url('Miscimages/StaisticsBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+/* newsletter for homepage */
 .newsletter {
     padding: 80px 0;
     background: #f2f2f2;
