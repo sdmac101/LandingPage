@@ -14,6 +14,15 @@ import OurTeam from "./views/OurTeam.js";
 import CommunityPartners from "./views/CommunityPartners.js";
 // Family Services
 import FamilyServices from "./views/FamilyServices.js";
+// Get Involved
+import HostEvent from "./views/HostEvent.js";
+import Volunteer from "./views/Volunteer.js";
+// Media Pages
+import PressReleases from "./views/PressReleases.js";
+import Newsletters from "./views/Newsletters.js";
+import MoreInfo from "./views/MoreInfo.js";
+// Gratitude Page
+import Gratitude from "./views/Gratitude.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -34,7 +43,13 @@ const router = async () => {
         {path: "/cannon_cpit", view: CCCPITTeam},
         {path: "/our_team", view: OurTeam},
         {path: "/community_partners", view: CommunityPartners},
-        {path: "/family_services", view: FamilyServices}
+        {path: "/family_services", view: FamilyServices},
+        {path: "/host_event", view: HostEvent},
+        {path: "/volunteer", view: Volunteer},
+        {path: "/press_releases", view: PressReleases},
+        {path: "/newsletters", view: Newsletters},
+        {path: "/more_information", view: MoreInfo},
+        {path: "/gratitude", view: Gratitude}
     ];
 
     const potentialMatches = routes.map( route => {
