@@ -9,7 +9,14 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <h1> Testing the Rutherford Services Page </h1>
+
+            <div class="jumbotron jumbotron-fluid RC-hero">
+                <div class="container">
+                    <h1 class="display-4">Rutherford County</h1>
+                    
+                </div>
+            </div>
+            
         `;
     }
 }

@@ -1,6 +1,7 @@
 /* Desktop menu */
 body{
     margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /* Home page logo */
@@ -161,12 +162,13 @@ footer p {
 /* home page slideshow */
 .carousel-item {
     max-height: 600px;
+    background-position: center;
+ 
 }
 
 /* statistics for homepage */
 .statistics {
     background-color: rgb(0, 118, 214);
-    margin-top: 25px;
 }
 
 .statistics-header {
@@ -175,6 +177,11 @@ footer p {
 
 .statistics-header h2 {
     color: white;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 30%;
+    border-bottom: 3px solid white;
 }
 
 .statistics-flexbox {
@@ -184,6 +191,16 @@ footer p {
     align-items: baseline;
 }
 
+.statistics-value {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    font-size: 40px;
+    color: rgb(0, 118, 214);
+    font-weight: 600;
+}
+
 .statistics-item {
     background-image: url('Miscimages/StaisticsBackground.png');
     background-repeat: no-repeat;
@@ -191,6 +208,14 @@ footer p {
     margin: 20px;
     width: 300px;
     height: 300px;
+}
+
+.statistics-item p {
+    text-align: center;
+    margin: auto;
+    width: 57%;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 /* newsletter for homepage */
@@ -225,4 +250,21 @@ footer p {
     background: #243c4f;
     color: #fff;
     font-weight:600;
+}
+
+/* Rutherford county services page */
+.RC-hero{
+    background-image: url('Miscimages/Murfreesboro-Tennessee-.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.RC-hero h1 {
+    color: white;
+    background-color: rgb(177, 177, 177);
+    width: 200px;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 50px;
+    font-weight: 300;
 }

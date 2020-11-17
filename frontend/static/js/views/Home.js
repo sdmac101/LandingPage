@@ -33,16 +33,18 @@ export default class extends AbstractView {
             <div class="statistics-header"><h2>IN THE PAST 20 YEARS</h2></div>
             <div class="statistics-flexbox">
                 <div class="statistics-item">
-                    <div class="statistics-value">2,400</div>
-                    PEOPLE SERVED
+                    <div class="statistics-item-text">
+                        <div class="statistics-value">2,400</div>
+                        <p>PEOPLE SERVED</p>
+                    </div>
                 </div>
                 <div class="statistics-item">
                     <div class="statistics-value">16,000</div>
-                    CHILD ABUSE CASES INVESTIGATED
+                    <p>CHILD ABUSE CASES INVESTIGATED</p>
                 </div>
                 <div class="statistics-item">
                     <div class="statistics-value">12,000</div>
-                    ADULTS TRAINED
+                    <p>ADULTS TRAINED</p>
                 </div>
             </div>
         </div>
