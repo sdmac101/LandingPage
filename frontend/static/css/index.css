@@ -313,3 +313,107 @@ html {
       color: #fff;
       padding: 20px;
   }
+
+
+
+
+.events-body {
+    background: #767676;
+    padding: 56px;
+    width: 90%;
+    margin: auto;
+}
+
+.heading-1 {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: white;
+    color: #767676;
+    width: 230px;
+    margin: auto;
+    font-size: 70px;
+    text-align: center;
+}
+
+.baseline-1 {
+    border-bottom: 3px solid white;
+    margin-top: 16px !important;
+}
+
+.baseline-2 {
+    border-bottom: 1px solid white;
+    margin-top: 4px !important;
+}
+
+.baseline-1, .baseline-2 {
+    width: 60%;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.content-row {
+    padding: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.content-row>.col-6>img {
+    width: 417px;
+    height: 434px;
+}
+
+.right-content, .left-content {
+    color: white;
+    position: relative;
+}
+
+.right-content {
+    text-align: right;
+}
+
+.left-content {
+    text-align: left;
+    ;
+}
+
+.left-content>h1, .right-content>h1 {
+    font-size: 52px;
+}
+
+.right-content-p {
+    font-size: 35px;
+    width: 90%;
+    text-align: left;
+    float: right;
+    margin-top: 65px;
+}
+
+.right-join-btn {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.right-join-btn>button {
+    width: 140px;
+    height: 44px;
+    border: none;
+    background: #1889DB;
+    color: white;
+}
+
+.right-join-btn>button:hover {
+    background: white;
+    color: black;
+}
+
+.img-col {
+    text-align: center;
+}
+
+.content-h3 {
+    margin-top: 50px;
+}
