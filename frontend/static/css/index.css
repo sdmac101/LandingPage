@@ -229,67 +229,94 @@ footer p {
 }
 /*Our Team*/
 
-html {
+*{
     box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 20px;
-    padding: 0 4px;
-  }
-  .row {
-      margin: 0;
-  }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-  
-  .card {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .container {
-    padding: 0 4px;
+}
+
+.card-wrapper{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.ot-card {
+    width: 30rem;
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2)
+}
+.profile-img-front {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 1rem;
+    z-index: 999;
+    transition: opacity .25s ease-out;
+}
+.profile-img-back {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 1rem;
+    margin-top: -49.8%;
+}
+.profile-img-front:hover{
+    opacity: 0;
+}
+.ot-card h2 {
+    color: #333333;
+    margin: 1.5rem 0;
     text-align: center;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  a.team {
-    /*display: block;*/
-    height: 256px /* -- set image height -- */;
-    width: 256px /* -- set image width -- */;
-    background: url(data:image/png;base64,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);
-    margin: 5px auto;
-    background-repeat: no-repeat;
-    transition: .5s all;
-    cursor: initial;
-  }
-  a.team:hover {
-    background: url(https://www.questionpro.com/blog/wp-content/uploads/2015/03/primary-test-it.png);
-    transition: .5s all;
-    cursor: initial;
-  }
-  .pImg{
+}
+.job-title{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+@media screen and (min-width: 700px) {
+    .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .ot-card{
+        margin: 1rem;
+    }
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.ot-card:nth-child(1){
+    animation: fadeIn .5s .5s backwards;
+}
+.ot-card:nth-child(2){
+    animation: fadeIn .5s 1s backwards;
+}
+.ot-card:nth-child(3){
+    animation: fadeIn .5s 1.5s backwards;
+}
+.ot-card:nth-child(4){
+    animation: fadeIn .5s 2s backwards;
+}
+
+.pImg{
     position: relative;
-    background-image:url('https://www.tnvacation.com/sites/default/files/partner/Square%20at%20Sunset%20lighter.jpg');
+    background-image: url("frontend/static/ourteamimages/cac-team.jpg");
     min-height: 400px;
     opacity: 0.80;
     background-position: center;
@@ -297,22 +324,22 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-bottom: 20px;
-  }
-  .pText{
-      position: absolute;
-      top:50%;
-      width:100%;
-      text-align: center;
-      color: #000;
-      font-size:27px;
-      letter-spacing: 8px;
-      text-transform: uppercase;
-  }
-  .pText .border {
-      background-color: #111;
-      color: #fff;
-      padding: 20px;
-  }
+}
+.pText{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: #000;
+    font-size:27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.pText .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
 
 
 
