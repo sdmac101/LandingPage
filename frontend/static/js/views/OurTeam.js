@@ -18,36 +18,32 @@ export default class extends AbstractView {
         </div>
 
         <section class = "section-light">
-            <div class="row">
-                <div class="column">
-                   <div class="card">
-                    <a href= "#" class="team"></a>
-                        <div class="container">
-                            <h2>Jane Doe</h2>
-                            <p class="title">CEO &amp; Founder</p>
-                        </div>
-                    </div>
+            <div class="card-wrapper">
+                <div class="ot-card">
+                    <img src="static/ourteamimages/young-pic1.jpg" class="profile-img-front">
+                    <img src="static/ourteamimages/adult-pic1.jpg" class="profile-img-back">
+                    <h2>Long Name Is A Bad Thing</h2>
+                    <p class="job-title">Job Tilte</p>
                 </div>
-            
-                <div class="column">
-                <div class="card">
-                <a href= "#" class="team"></a>
-                    <div class="container">
-                    <h2>Mike Ross</h2>
-                    <p class="title">Art Director</p>
-                    </div>
+                <div class="ot-card">
+                    <img src="static/ourteamimages/young-pic2.jpg" class="profile-img-front">
+                    <img src="static/ourteamimages/adult-pic2.jpg" class="profile-img-back">
+                    <h2>Long Name Is A Bad Thing</h2>
+                    <p class="job-title">Job Tilte</p>
                 </div>
+                <div class="ot-card">
+                    <img src="static/ourteamimages/young-pic3.jpg" class="profile-img-front">
+                    <img src="static/ourteamimages/adult-pic3.jpg" class="profile-img-back">
+                    <h2>Another Long Name </h2>
+                    <p class="job-title">Job Tilte</p>
                 </div>
-            
-                <div class="column">
-                <div class="card">
-                <a href= "#" class="team"></a>
-                    <div class="container">
-                    <h2>John Doe</h2>
-                    <p class="title">Designer</p>
-                    </div>
+                <div class="ot-card">
+                    <img src="static/ourteamimages/young-pic1.jpg" class="profile-img-front">
+                    <img src="static/ourteamimages/adult-pic1.jpg" class="profile-img-back">
+                    <h2>Another Random Name</h2>
+                    <p class="job-title">Job Tilte</p>
                 </div>
-                </div>
+                
             </div>
         </section>
         `;
