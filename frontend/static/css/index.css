@@ -227,6 +227,81 @@ footer p {
     color: #fff;
     font-weight:600;
 }
+
+/*Rutherford Services*/
+.RCImg{
+    position: relative;
+    background-image: url("Miscimages/Murfreesboro-Tennessee-.jpg");
+    min-height: 400px;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+}
+
+.RCImg h1 {
+    color: white;
+    background-color: rgb(177, 177, 177);
+    width: 200px;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 50px;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+#services-header {
+    color: rgb(0, 118, 240);
+    margin-left: 20%;
+    font-size: 60px;
+}
+
+@media (max-width: 700px) {
+    .RCImg {
+        min-height: 250px;
+    }
+    .RCImg h1 {
+        margin-left: 20px;
+    }
+    #services-header {
+        margin-left: 20px;
+    }
+}
+
+.service-block {
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.block-item{
+    margin-left: 10px;
+    margin-top: 20px;
+    flex-grow: 1;
+    max-width: 450px; 
+}
+
+.block-item h1 {
+    display: table;
+    background-color: rgb(0, 118, 240);
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+.block-item img {
+    object-fit: cover;
+}
+
+@media (max-width: 450px) {
+    .block-item img {
+        width: 310px;
+    }
+}
+
 /*Our Team*/
 
 html {
